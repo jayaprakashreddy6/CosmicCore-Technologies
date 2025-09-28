@@ -43,9 +43,12 @@ jobs:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
     permissions:
-      contents: write
+      contents: read
       pages: write
       id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     
     steps:
     - name: Checkout repository
@@ -63,16 +66,14 @@ jobs:
     - name: Build project
       run: npm run build
     
-    - name: Create .nojekyll file
-      run: touch build/.nojekyll
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
     
-    - name: Copy 404.html to build
-      run: cp public/404.html build/404.html
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: './build'
     
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./build
-        force_orphan: true
-        commit_message: "Deploy to GitHub Pages - ${{ github.sha }}" 
+      id: deployment
+      uses: actions/deploy-pages@v4 
