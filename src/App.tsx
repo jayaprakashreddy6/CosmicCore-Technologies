@@ -18,11 +18,8 @@ import Reviews from './pages/Reviews';
 
 
 function App() {
-  // Get the repository name from the URL for GitHub Pages
-  const repoName = process.env.PUBLIC_URL || '';
-  
   return (
-    <Router basename={repoName}>
+    <Router>
       <ScrollToTop />
       <div className="App">
         <Header />
