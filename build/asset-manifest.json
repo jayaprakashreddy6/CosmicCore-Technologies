@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.c4a5d76c.css",
-    "main.js": "./static/js/main.792cd160.js",
-    "static/js/453.1775058e.chunk.js": "./static/js/453.1775058e.chunk.js",
-    "static/media/cosmicLogo.jpeg": "./static/media/cosmicLogo.5b64b75746ac33c07c0f.jpeg",
-    "index.html": "./index.html",
-    "main.c4a5d76c.css.map": "./static/css/main.c4a5d76c.css.map",
-    "main.792cd160.js.map": "./static/js/main.792cd160.js.map",
-    "453.1775058e.chunk.js.map": "./static/js/453.1775058e.chunk.js.map"
+    "main.css": "/CosmicCore-Technologies/static/css/main.c4a5d76c.css",
+    "main.js": "/CosmicCore-Technologies/static/js/main.584ae867.js",
+    "static/js/453.1775058e.chunk.js": "/CosmicCore-Technologies/static/js/453.1775058e.chunk.js",
+    "static/media/cosmicLogo.jpeg": "/CosmicCore-Technologies/static/media/cosmicLogo.5b64b75746ac33c07c0f.jpeg",
+    "index.html": "/CosmicCore-Technologies/index.html",
+    "main.c4a5d76c.css.map": "/CosmicCore-Technologies/static/css/main.c4a5d76c.css.map",
+    "main.584ae867.js.map": "/CosmicCore-Technologies/static/js/main.584ae867.js.map",
+    "453.1775058e.chunk.js.map": "/CosmicCore-Technologies/static/js/453.1775058e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c4a5d76c.css",
-    "static/js/main.792cd160.js"
+    "static/js/main.584ae867.js"
   ]
 }
