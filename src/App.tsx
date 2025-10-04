@@ -18,11 +18,13 @@ import Reviews from './pages/Reviews';
 
 
 function App() {
-  // Get the repository name from the URL for GitHub Pages
-  const repoName = process.env.PUBLIC_URL || '';
+  // Derive basename from PUBLIC_URL for GH Pages or empty for custom domain
+  const publicUrl = process.env.PUBLIC_URL || '';
+  const url = new URL(publicUrl || window.location.origin);
+  const baseName = url.pathname === '/' ? '' : url.pathname.replace(/\/$/, '');
   
   return (
-    <Router basename={repoName}>
+    <Router basename={baseName}>
       <ScrollToTop />
       <div className="App">
         <Header />
