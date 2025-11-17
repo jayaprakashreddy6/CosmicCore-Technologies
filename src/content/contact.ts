@@ -3,7 +3,7 @@ import { ContactInfo } from '../types';
 export const contactInfo: ContactInfo = {
   email: 'cosmiccoretechnologies@gmail.com',
   phone: '+91 9901480919',
-  address: 'Kr Puram, Bangalore, Karnataka, India',
+  address: 'COSMICCORE TECHNOLOGIES PVT LTD, Jai Bhuvaneshwari Layout Rd, Chikkabasavanapura, Krishnarajapuram, Bangalore, Karnataka, India, 560036',
   socialMedia: {
     linkedin: 'https://www.linkedin.com/company/109826119/',
     twitter: 'https://x.com/cosmiccore4',

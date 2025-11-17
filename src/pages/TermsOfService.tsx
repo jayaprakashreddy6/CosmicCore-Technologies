@@ -265,7 +265,7 @@ const TermsOfService: React.FC = () => {
                     <p className="text-secondary-700">
                       <strong>Email:</strong> cosmiccoretechnologies@gmail.com<br />
                       <strong>Address:</strong> COSMICCORE TECHNOLOGIES PVT LTD<br />
-                      Kr Puram, Bangalore, Karnataka, India<br />
+                      Jai Bhuvaneshwari Layout Rd, Chikkabasavanapura, Krishnarajapuram, Bangalore, Karnataka, India, 560036<br />
                       <strong>Phone:</strong> +91 9901480919
                     </p>
                   </div>
