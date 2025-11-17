@@ -3,9 +3,9 @@ import { ContactInfo } from '../types';
 export const contactInfo: ContactInfo = {
   email: 'cosmiccoretechnologies@gmail.com',
   phone: '+91 9901480919',
-  address: 'Bangalore, Karnataka, India',
+  address: 'Kr Puram, Bangalore, Karnataka, India',
   socialMedia: {
-    linkedin: 'https://www.linkedin.com/in/cosmiccore-technologies-0564a1376',
+    linkedin: 'https://www.linkedin.com/company/109826119/',
     twitter: 'https://x.com/cosmiccore4',
     facebook: 'https://www.facebook.com/share/1JSroE8fv8/',
     instagram: 'https://www.instagram.com/cosmiccore4/',
@@ -44,7 +44,7 @@ export const contactMethods = [
     description: 'Come say hello at our office',
     value: contactInfo.address,
     icon: '📍',
-    action: `https://maps.google.com/?q=${encodeURIComponent(contactInfo.address)}`,
+    action: 'https://www.google.com/maps/place/COSMICCORE+TECHNOLOGIES+PVT+LTD/@13.0122578,77.7046377,19.5z/data=!4m15!1m8!3m7!1s0x3bae1670c9b44e6d:0xf8dfc3e8517e4fe0!2sBengaluru,+Karnataka!3b1!8m2!3d12.9628669!4d77.577509!16zL20vMDljMTc!3m5!1s0x1445a50e46eee03:0xfa2b27234de4e04!8m2!3d13.0124245!4d77.7046317!16s%2Fg%2F11y0xg_jt4?entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D',
     color: 'from-orange-400 to-orange-600'
   }
 ];

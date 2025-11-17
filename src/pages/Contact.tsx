@@ -335,13 +335,34 @@ const Contact: React.FC = () => {
                   <span className="text-cyan-800">Visit Our Office</span>
                 </h2>
                 
-                {/* Map Placeholder */}
-                <div className="mobile-image-container mb-6 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="text-4xl mb-2">🗺️</div>
-                    <p className="text-secondary-600">Interactive Map</p>
-                    <p className="text-sm text-secondary-500">Click to open in Google Maps</p>
-                  </div>
+                {/* Interactive Google Map */}
+                <div className="mb-6 rounded-lg overflow-hidden shadow-lg border border-gray-200">
+                  <iframe
+                    src="https://www.google.com/maps?q=COSMICCORE+TECHNOLOGIES+PVT+LTD,+KR+Puram,+Bangalore,+Karnataka&output=embed&z=15&ll=13.0124245,77.7046317"
+                    width="100%"
+                    height="400"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    className="w-full"
+                    title="COSMICCORE TECHNOLOGIES PVT LTD Location"
+                  ></iframe>
+                </div>
+                
+                {/* Link to open in Google Maps */}
+                <div className="mb-6 text-center">
+                  <a
+                    href="https://www.google.com/maps/place/COSMICCORE+TECHNOLOGIES+PVT+LTD/@13.0122578,77.7046377,19.5z/data=!4m15!1m8!3m7!1s0x3bae1670c9b44e6d:0xf8dfc3e8517e4fe0!2sBengaluru,+Karnataka!3b1!8m2!3d12.9628669!4d77.577509!16zL20vMDljMTc!3m5!1s0x1445a50e46eee03:0xfa2b27234de4e04!8m2!3d13.0124245!4d77.7046317!16s%2Fg%2F11y0xg_jt4?entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium text-sm inline-flex items-center"
+                  >
+                    <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                    Open in Google Maps
+                  </a>
                 </div>
 
                 <div className="space-y-4">
