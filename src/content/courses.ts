@@ -33,7 +33,7 @@ export const courses: Course[] = [
       'Data Visualization',
       'Project Development'
     ],
-    image: 'public/images/courses/data-science.jpg'
+    image: '/images/courses/data-science-ml.png'
   },
   {
     id: 'artificial-intelligence',
@@ -52,7 +52,7 @@ export const courses: Course[] = [
       'AI Ethics & Responsible AI',
       'Real-world AI Projects'
     ],
-    image: '/images/courses/artificial-intelligence.jpg'
+    image: '/images/courses/artificial-intelligence.png'
   },
   {
     id: 'mobile-development',
@@ -70,7 +70,7 @@ export const courses: Course[] = [
       'App Store Deployment (iOS, Android)',
       'Performance Optimization'
     ],
-    image: '/images/ui-ux-design.png'
+    image: '/images/courses/ui-ux-design.png'
   },
   {
     id: 'cybersecurity',
@@ -88,7 +88,7 @@ export const courses: Course[] = [
       'Incident Response',
       'Security Certifications'
     ],
-    image: '/images/courses/Full-Stack-Developer-NodeJS.jpg'
+    image: '/images/courses/cybersecurity.png'
   },
   {
     id: 'python-full-stack',
@@ -285,6 +285,6 @@ export const courses: Course[] = [
       'Report Writing & Presentation',
       'Data Storytelling'
     ],
-    image: '/images/courses/data-analyst.jpg'
+    image: '/images/courses/data-analyst.png'
   },
 ]; 
